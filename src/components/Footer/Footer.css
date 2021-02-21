@@ -1,0 +1,117 @@
+.main-footer {
+  height: 5rem;
+  background: black;/*#242424;*/
+  position: fixed;
+  bottom: 0;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  width: 99%;
+  z-index: 10;
+}
+
+.main-footer__nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 0 1rem;
+}
+
+.main-footer__nav-items {
+  height: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.main-footer__nav-item {
+  margin: 0 0.5rem;
+}
+
+.main-footer__nav-item a {
+  display: block;
+  padding: 0.25rem 0.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+.main-footer__nav-item a:hover,
+.main-footer__nav-item a:active,
+.main-footer__nav-item a.active {
+  background: #86bc25;
+  border-radius: 5px;
+  color: white;
+}
+
+.main-footer__nav-item button {
+  font: inherit;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  padding: 0.25rem 0.5rem;
+  color: #86bc25;
+}
+
+.main-footer__nav-item button:hover,
+.main-footer__nav-item button:active {
+  background: #86bc25;
+  border-radius: 5px;
+  color: white;
+}
+
+.main-footer__nav-item button:focus {
+  outline: none;
+}
+
+.logo {
+  background-image: url('/backend/images/deloitte-logo1.jpg');
+  width: 200px;
+  height: 60px;
+}
+
+.logoLink {
+  padding: 0.25rem 0.5rem;
+  text-decoration: none;
+}
+
+.logoText {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: white;
+  font-weight: bolder;
+}
+
+.logoDot {
+  font-size: 20px; 
+  color: #86bc25;
+}
+
+/* .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+} */
+
+/* #root {
+  padding-top: 3.5rem;
+} */
+
+.navbar-right-icon {
+  margin: 0 0.5rem;
+  align-content: right;
+  right: 0;
+  text-align: right;
+}
+
+.navbar-right-icon a {
+  display: block;
+  padding: 0.25rem 0.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+.bell {
+  padding-left: 290px;
+}

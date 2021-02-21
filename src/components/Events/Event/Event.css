@@ -1,0 +1,110 @@
+.article-card {
+  display: inline-block;/*flex;*/
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  height: fit-content;
+  width: fit-content;
+  margin: 1rem 1rem;
+  position: relative;
+  transform: scale(1);
+}
+
+.article-card:hover {
+  transform: scale(1.5);
+  display: inline-block;/*flex;*/
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  height: fit-content;
+  width: fit-content;
+  margin: 1rem 1rem;
+  position: relative;
+}
+
+.article-card-image {
+  width: 35%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  margin-right: 5%;
+}
+
+.article-card-content {
+  width: 60%;
+}
+
+.article-card-content h1 {
+  font-size: 1.25rem;
+  color: #86bc25;
+  margin: 0.5rem 0;
+}
+
+.article-card-content h2 {
+  font-size: 1rem;
+  color: #86bc25;
+  margin: 0;
+}
+
+.article-card-controls {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  text-align: right;
+}
+
+.article-card-controls button,
+.article-card-controls a {
+  text-decoration: none;
+  cursor: pointer;
+  font: inherit;
+  border: none;
+  background: transparent;
+  color: white;
+  padding: 0;
+  margin: 0 0.5rem;
+  right: 0;
+}
+
+.article-card-controls button:hover,
+.article-card-controls button:active,
+.article-card-controls a:hover,
+.article-card-controls a:active {
+  color: white;
+  font-weight: bold;
+}
+
+.buttonRight {
+  width: auto !important;
+  float: right;
+  right: 0;
+}
+
+.div-card {
+  display: inline-block;
+  width: fit-content;
+  height: fit-content;
+  overflow-wrap: break-word;
+  padding: 1%;
+}
+
+.div-card-name {
+  background-color: black;
+  width: fit-content;
+  height: fit-content;
+  display: inline-block;
+  opacity: 70%;
+}
+
+.div-card-text {
+  padding-left: 15px;
+}
+
+.div-card a {
+  text-decoration: none;
+}
+
+.div-card-main {
+  z-index: 10;
+}
+
+a h3 {
+  /* text-decoration: none; */
+  color: #86bc25 !important;
+}

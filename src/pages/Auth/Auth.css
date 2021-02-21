@@ -1,0 +1,42 @@
+.auth__form {
+  width: 90%;
+  margin: auto;
+}
+
+.auth__mode-control {
+  text-align: center;
+  margin: 1rem;
+}
+
+@media (min-width: 768px) {
+  .auth__form {
+    width: 40rem;
+  }
+}
+
+.dropdown {
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+.dropdown {
+  font: inherit;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 0.25rem 0.5rem;
+  background: white;
+}
+
+.dropdown:focus {
+  border-color: #86bc25;
+  outline: none;
+}
+
+select option:checked,
+select option:hover,
+option:hover {
+  background-color: #86bc25;
+  background: #86bc25;
+  color: white; 
+  box-shadow: 0 0 10px 100px #86bc25 inset;
+}

@@ -1,0 +1,11 @@
+.cards {
+    width: 95%;
+    margin: auto;
+}
+
+
+@media (min-width: 768px) {
+    .cards {
+        width: 90%;
+    }   
+}

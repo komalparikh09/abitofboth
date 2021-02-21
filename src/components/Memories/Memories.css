@@ -1,0 +1,11 @@
+.card-section {
+    width: 95%;
+    margin: auto;
+}
+
+
+@media (min-width: 768px) {
+    .card-section {
+        width: 80%;
+    }   
+}

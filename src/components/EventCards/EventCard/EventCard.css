@@ -1,0 +1,83 @@
+.article-card {
+  display: inline-block;/*flex;*/
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  height: 200px;
+  margin: 1rem 1rem;
+  position: relative;
+}
+
+.article-card-image {
+  width: 35%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  margin-right: 5%;
+}
+
+.div-content {
+  width: 60%;
+}
+
+.div-content h1 {
+  font-size: 1.25rem;
+  color: white;
+  margin: 0.5rem 0;
+}
+
+.div-content h2 {
+  font-size: 1rem;
+  color: #292929;
+  margin: 0;
+}
+
+.article-card-controls {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  text-align: right;
+}
+
+.article-card-controls button,
+.article-card-controls a {
+  text-decoration: none;
+  cursor: pointer;
+  font: inherit;
+  border: none;
+  background: transparent;
+  color: white;
+  padding: 0;
+  margin: 0 0.5rem;
+}
+
+.article-card-controls button:hover,
+.article-card-controls button:active,
+.article-card-controls a:hover,
+.article-card-controls a:active {
+  color: #320083;
+}
+
+.buttonRight {
+  width: auto !important;
+  float: right;
+  padding-right: 1px;
+  padding-top: 7px;
+}
+
+.div-card {
+  display: inline-block;
+  width: 400px;
+  height: auto;
+  overflow-wrap: break-word;
+  /* background-color: #eeecc4; */
+}
+
+.div-card-name {
+  background-color: #86bc25;
+  width: 400px;
+  height: 50px;
+  display: inline-block;
+}
+
+.div-card-text {
+  padding-left: 15px;
+}

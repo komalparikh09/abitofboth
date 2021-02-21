@@ -1,0 +1,141 @@
+.edit-product__form {
+  width: 90%;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .edit-product__form {
+    width: 40rem;
+  }
+}
+
+/* .navbar {
+  background-color: transparent;
+}
+
+.scrolling-navbar {
+  transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+  background-color: #34456a;
+}
+
+footer.page-footer {
+  background-color: #34456a;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #34456a;
+  }
+} */
+
+/* .navbar {
+  background-color: transparent;
+}
+
+.scrolling-navbar {
+  transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+  background-color: #667490;
+}
+
+footer.page-footer {
+  background-color: #667490;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #667490;
+  }
+} */
+
+.carousel-element img {
+  height: 400px;
+  width: 500px;
+}
+
+.carousel-card {
+  display: inline-block;
+  /*flex;*/
+  width: 60%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  height: auto;
+  margin: 1rem 1rem;
+  position: relative;
+}
+
+.carousel-card-element {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  overflow-wrap: break-word;
+}
+
+.divImage {
+  position: relative;
+  z-index: 1;
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.legend {
+  background-color: black;
+  border-radius: 5%;
+  padding: 10px;
+  opacity: 0.5;
+}
+
+.legend:hover {
+  opacity: 60%;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+.divLinkP {
+  text-decoration: none;
+  position: relative;
+  top: -10px;
+  z-index: 2;
+  color: #86bc25;
+  font-weight: bold;
+  font-size: large;
+}
+
+.homeSlider {
+  width: 100%;
+  height: auto;
+}
+
+.parallaxImgText {
+  text-align: center;
+  align-self: center;
+  align-content: center;
+  font-weight: bolder;
+  font-size: x-large;
+  padding: 80px 80px;
+  background-color: black;
+  color: #86bc25;
+  /* opacity: 70%; */
+}
+
+.parallaxTyping {
+  text-align: center;
+  align-self: center;
+  align-content: center;
+  font-weight: bolder;
+  font-size: larger;
+  padding: 10px 30px;
+  background-color: black;
+  color: #86bc25;
+  opacity: 80%;
+}
+
+.parallaxImg {
+  height: 400px;
+  width: 100%;
+}
